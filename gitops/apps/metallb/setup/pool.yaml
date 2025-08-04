@@ -8,6 +8,7 @@ spec:
   # just 4 of them.
   addresses:
     - 10.207.200.0/24
+  avoidBuggyIPs: true
 ---
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
