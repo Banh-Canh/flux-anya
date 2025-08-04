@@ -13,7 +13,6 @@ spec:
     artifact: 'oci://ghcr.io/controlplaneio-fluxcd/flux-operator-manifests'
   cluster:
     type: kubernetes
-    domain: bealv-mgmt.local
     networkPolicy: false
   components:
     - source-controller
