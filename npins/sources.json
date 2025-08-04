@@ -1,0 +1,149 @@
+{
+  "pins": {
+    "cert-manager": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "cert-manager",
+        "repo": "cert-manager"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.17.2",
+      "revision": "8d465a2251c178442fbbb2125c31ccd491ef7a42",
+      "url": "https://api.github.com/repos/cert-manager/cert-manager/tarball/v1.17.2",
+      "hash": "1m588vc8fsarjkd319rsww0hk2grj699jhhfnshcplw9lbv1bhfa"
+    },
+    "cluster-api-operator": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "kubernetes-sigs",
+        "repo": "cluster-api-operator"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.20.0",
+      "revision": "221f27f4f0e78bec0f23ebc3d7b439b2163ca3be",
+      "url": "https://api.github.com/repos/kubernetes-sigs/cluster-api-operator/tarball/v0.20.0",
+      "hash": "1hhdn1bxdskiy7ashks8p18g33kczxlynki6ah5fvqbwmwbdkw2h"
+    },
+    "contour": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "projectcontour",
+        "repo": "contour"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.32.0",
+      "revision": "b0f4d6fa82c2443befde43c08bc46d2c915fb3fc",
+      "url": "https://api.github.com/repos/projectcontour/contour/tarball/v1.32.0",
+      "hash": "0w6dvhf3d0bp2kgpza7jlpyg5h0a0m9542p8aqk8y4s9l1cjy2sv"
+    },
+    "external-snapshotter": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "kubernetes-csi",
+        "repo": "external-snapshotter"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v8.2.1",
+      "revision": "a6a3d9d6b5f6f1e6fa0d311148b696556e4499e8",
+      "url": "https://api.github.com/repos/kubernetes-csi/external-snapshotter/tarball/v8.2.1",
+      "hash": "03lyj0b8vsnrxdg4zc998xs58i6w0zifl17mq1ayi6sjq1d5k64q"
+    },
+    "flux-operator": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "controlplaneio-fluxcd",
+        "repo": "flux-operator"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.13.0",
+      "revision": "e8dc35b53311995457e140de83ac0f1c0b8196b6",
+      "url": "https://api.github.com/repos/controlplaneio-fluxcd/flux-operator/tarball/v0.13.0",
+      "hash": "1bcqn291f2fv88vabg0y5y3gjf5plajpbk91gc1bsvfvllin0mkl"
+    },
+    "grafana-operator": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "grafana-operator",
+        "repo": "grafana-operator"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v5.18.0",
+      "revision": "bb4abde8ca5dd6b0705a90f6cf537d130a63f881",
+      "url": "https://api.github.com/repos/grafana-operator/grafana-operator/tarball/v5.18.0",
+      "hash": "0xrlpgndh3qffnfhk7mxz0yihsqqmyzx251080y0ip6lma27gykp"
+    },
+    "kamaji": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "clastix",
+        "repo": "kamaji"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "edge-25.4.1",
+      "revision": "994ca7687d0feebf775c06dc116a8b74d20290d0",
+      "url": "https://api.github.com/repos/clastix/kamaji/tarball/edge-25.4.1",
+      "hash": "0zksz7p7wxsswhyy92y8jac8phbdvm15xswhzk688dqj9mn10nar"
+    },
+    "kube-prometheus": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "prometheus-operator",
+        "repo": "kube-prometheus"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "9bf26583e305e22ce76edc022f6f86c93017ae80",
+      "url": "https://github.com/prometheus-operator/kube-prometheus/archive/9bf26583e305e22ce76edc022f6f86c93017ae80.tar.gz",
+      "hash": "19pymk5frv31nscphz0c448b6snpi4v55wh9x276aq4v8ff2w4zv"
+    },
+    "kubevirt-monitoring": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "kubevirt",
+        "repo": "monitoring"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "234f65f076465b7f96edd23a028fd943000a3493",
+      "url": "https://github.com/kubevirt/monitoring/archive/234f65f076465b7f96edd23a028fd943000a3493.tar.gz",
+      "hash": "02gjb8a0lwv6kwa95wvg05038vw26hfmzngv8d06nsq73ldh1cf7"
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixos-24.11",
+      "url": "https://releases.nixos.org/nixos/24.11/nixos-24.11.716389.c570c1f53044/nixexprs.tar.xz",
+      "hash": "150nmrbs3aplxj8w5qwg4aqvwqxdkfap597l20rvqimgbr99gzm7"
+    }
+  },
+  "version": 5
+}

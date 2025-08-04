@@ -1,0 +1,15 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: infra
+  namespace: flux-system
+spec:
+  interval: 1m
+  provider: github
+  ref:
+    branch: main
+  url: https://github.com/Banh-Canh/flux-anya
+  ignore: |
+    /*
+    !/bootstrap/fluxcd
+    !/gitops
